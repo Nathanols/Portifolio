@@ -53,9 +53,14 @@ nav{
     transition: 0.5s;
 }
 
+body{
+    background-color: aliceblue;
+}
+
 main{
-    width: 100%;
+    width: 80%;
     height: 100vh;
+    margin: auto;
     background-color: rgb(33, 33, 33);
 }
 
@@ -76,4 +81,10 @@ main{
 .apresentacao{
     margin-left: 10px;
     margin-top: 50px;
+}
+
+.projetos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
