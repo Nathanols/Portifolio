@@ -11,35 +11,77 @@
 }
 
 header{
-    display:flex;
     background-image: linear-gradient(to right,var(--azulclaro),var(--azulescuro));
     width: 100vw;
     padding: 10px 0px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
 }
+
+.navbar{
+    display: flex;
+    
+}
+
 
 .titulo{
     font-size: 30px;
-    
+    width: 90vw;
+    display: flex;
+    justify-content: left;
 }
 
-header img{
-    width: 35px;
-    border-radius: 50%;
-    margin-right: 5px;
+.menu-icon{
+    display: block;
+    text-align: right;
+    margin-right: 25px;
 }
 
-nav{
-    width: 100vw;
+.menu-icon :hover{
+    cursor: pointer;
+}
+
+li{
+    text-decoration: none;
+}
+
+.menu{
     display: flex;
     justify-content: flex-end;
+    width: 100vw;
+}
+
+.list{
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100px;
+    padding: 5px 3px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: solid 1px white;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    font-size: 1.2em;
     
 }
 
-.navbar a:hover{
-    transition: 0.3s;
-    transform: translate(-2px, -2px);
-    border-radius: 50%;
+li{
+    list-style: none;
 }
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.open{
+    display: block;
+}
+
 
 main{
     width:100vw;
@@ -52,45 +94,32 @@ main{
     align-items: right;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .perfil img{
     width: 200px;
     border-radius:50%;
     border: solid 2px white;
-    margin-left: 100px;
     margin-top: 50px;
 }
 
 .apresentacao{
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 50px;
 }
 
-h2{
+h3{
     color: #9c9c9c;
+    text-align: center;
 }
 
-.projetos{
-    display: block;
+.sobre{
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    border: solid 1px white;
 }
 
-.botoes{
-    display: grid;
-    justify-content: center;
-}
 
-button{
-    width: 500px;
-    height: 50px;
-    border-radius: 30px;
-    border: solid 5px var(--dourado) ;
-    background-color: transparent;
-    color: var(--dourado);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
-
-}
-a :hover{
-    cursor: pointer;
-}
