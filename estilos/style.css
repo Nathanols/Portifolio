@@ -10,6 +10,13 @@
     --dourado:#b8920b;
 }
 
+
+
+
+.btn:focus{
+    outline-style: none;
+}
+
 header{
     background-image: linear-gradient(to right,var(--azulclaro),var(--azulescuro));
     width: 100vw;
@@ -33,10 +40,23 @@ header{
     justify-content: left;
 }
 
+.dark-mode{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#mode_icon{
+    position: absolute;
+}
+
 .menu-icon{
     display: block;
     text-align: right;
     margin-right: 25px;
+    
 }
 
 .menu-icon :hover{
@@ -86,7 +106,7 @@ button{
 main{
     width:100vw;
     height: 100vh;
-    background-color: #262626
+    background-color: #262626;
 }
 
 .perfil{
