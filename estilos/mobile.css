@@ -1,0 +1,43 @@
+
+main{
+    width:100vw;
+    height: 100vh;
+    background-color: #262626;
+}
+
+.perfil{
+    color: var(--branco);
+    align-items: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil img{
+    width: 200px;
+    border-radius:50%;
+    border: solid 2px var(--branco);
+    margin-top: 75px;
+}
+
+.apresentacao{
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+h3{
+    color: #9c9c9c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre{
+    width: 85vw;
+    margin: auto;
+    margin-top: 15px;
+    color: var(--branco);
+    border: solid 1px var(--branco);
+    text-align: justify;
+    padding: 10px;
+    borde

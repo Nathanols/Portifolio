@@ -2,15 +2,18 @@
 const mode = document.getElementById('mode_icon');
 
 mode.addEventListener('click', () => {
-    if(mode.classList.contains('fa-moon')){
-        mode.classList.remove('fa-moon');
-        mode.classList.add('fa-sun');
+    const form = document.getElementById('portifolio')
+    if(mode.classList.contains('fa-sun')){
+        mode.classList.remove('fa-sun');
+        mode.classList.add('fa-moon');
 
+        form.classList.add('dark');
         return;
     }
 
-    mode.classList.add('fa-moon');
-    mode.classList.remove('fa-sun');
+    mode.classList.add('fa-sun');
+    mode.classList.remove('fa-moon');
+    form.classList.remove('dark');
 });
 
 function menuShow() {

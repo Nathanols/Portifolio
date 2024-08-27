@@ -8,10 +8,33 @@
     --azulclaro:#61dee2;
     --azulescuro:#024cad;
     --dourado:#b8920b;
+    --branco:#ffffff;
+    --preto:#000000;
 }
 
+.dark#portifolio{
+    background-color: var(--branco);
+    
+}
 
+.dark#portifolio .letra{
+    color:var(--preto);
+    
+}
 
+.dark#portifolio .sobre{
+    border: solid 1px var(--preto);
+    background-color: #e2e1e1;
+}
+
+.dark .perfil img{
+    border: solid 1px var(--preto);
+}
+
+.dark#portifolio .menu .list{
+    border: solid 1px var(--preto);
+    color: var(--preto);
+}
 
 .btn:focus{
     outline-style: none;
@@ -37,14 +60,15 @@ header{
     font-size: 30px;
     width: 90vw;
     display: flex;
-    justify-content: left;
+    justify-content: start;
+    margin-top: 7px;
 }
 
-.dark-mode{
+.icon-dark{
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: white;
+    color: var(--branco);
     cursor: pointer;
 }
 
@@ -79,11 +103,11 @@ li{
     position: absolute;
     width: 100px;
     padding: 5px 3px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 8px;
-    border: solid 1px white;
+    border: solid 1px var(--branco);
     text-align: center;
-    color: white;
+    color: var(--branco);
     line-height: 25px;
     font-size: 1.2em;
     
@@ -108,38 +132,3 @@ main{
     height: 100vh;
     background-color: #262626;
 }
-
-.perfil{
-    color: white;
-    align-items: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.perfil img{
-    width: 200px;
-    border-radius:50%;
-    border: solid 2px white;
-    margin-top: 50px;
-}
-
-.apresentacao{
-    margin-left: 25px;
-    margin-top: 50px;
-}
-
-h3{
-    color: #9c9c9c;
-    text-align: center;
-}
-
-.sobre{
-    width: 800px;
-    margin: auto;
-    margin-top: 40px;
-    color: white;
-    border: solid 1px white;
-}
-
-
